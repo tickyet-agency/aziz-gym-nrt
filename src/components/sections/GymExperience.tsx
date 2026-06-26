@@ -101,14 +101,14 @@ export default function GymExperience() {
       <div className="relative flex-1 flex items-center overflow-hidden w-full">
         <div
           ref={trackRef}
-          className="flex gap-5 px-6 lg:px-10 overflow-x-auto md:overflow-x-visible no-scrollbar pb-4 md:pb-0 scroll-smooth will-change-transform w-full snap-x snap-mandatory md:snap-none"
+          className="flex gap-5 px-6 lg:px-10 overflow-x-auto md:overflow-x-visible no-scrollbar pb-4 md:pb-0 scroll-smooth will-change-transform w-full"
         >
           {ZONES.map((zone) => {
             const Icon = zone.icon;
             return (
               <div
                 key={zone.title}
-                className="relative w-[78vw] sm:w-[52vw] lg:w-[34vw] aspect-[4/5] shrink-0 rounded-sm overflow-hidden border border-border snap-start md:snap-align-none"
+                className="relative w-[78vw] sm:w-[52vw] lg:w-[34vw] aspect-[4/5] shrink-0 rounded-sm overflow-hidden border border-border"
               >
                 <PhotoPanel
                   variant={zone.variant}

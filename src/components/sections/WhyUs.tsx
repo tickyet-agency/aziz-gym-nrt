@@ -63,7 +63,7 @@ export default function WhyUs() {
           </h2>
         </Reveal>
 
-        <div className="mt-16 flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-5 sm:grid sm:grid-cols-1 sm:overflow-visible lg:grid-cols-3 lg:grid-rows-2 lg:auto-rows-[220px]">
+        <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-5 lg:auto-rows-[220px]">
           {FEATURES.map((feature, i) => {
             const Icon = feature.icon;
             return (
@@ -78,7 +78,7 @@ export default function WhyUs() {
                   ease: [0.16, 1, 0.3, 1],
                 }}
                 whileHover={{ scale: 1.015, y: -4 }}
-                className={`glass relative overflow-hidden p-8 flex flex-col justify-between group cursor-default shrink-0 w-[82vw] snap-start sm:w-auto ${feature.span}`}
+                className={`glass relative overflow-hidden p-8 flex flex-col justify-between group cursor-default ${feature.span}`}
               >
                 {feature.photo && (
                   <>

@@ -95,7 +95,7 @@ export default function DietNutrition() {
         <div className="hr-gold mt-10 mb-14" />
 
         {/* ── 6-card grid ── */}
-        <div className="flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-5 sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {NUTRITION_CARDS.map((card, i) => {
             const Icon = card.icon;
             return (
@@ -110,7 +110,7 @@ export default function DietNutrition() {
                   ease: [0.16, 1, 0.3, 1],
                 }}
                 whileHover={{ scale: 1.015, y: -4 }}
-                className="glass relative overflow-hidden rounded-sm flex flex-col group cursor-default shrink-0 w-[82vw] snap-start sm:w-auto"
+                className="glass relative overflow-hidden rounded-sm flex flex-col group cursor-default"
               >
                 {/* Card image */}
                 <div className="relative w-full aspect-[4/3] overflow-hidden shrink-0">

@@ -51,7 +51,7 @@ export default function Membership() {
           </h2>
         </Reveal>
 
-        <div className="mt-16 flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-6 sm:grid sm:grid-cols-2 sm:overflow-visible sm:max-w-3xl sm:mx-auto">
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {PLANS.map((plan, i) => (
             <motion.div
               key={plan.name}
@@ -64,7 +64,7 @@ export default function Membership() {
                 ease: [0.16, 1, 0.3, 1],
               }}
               whileHover={{ y: -6 }}
-              className={`relative flex flex-col rounded-sm overflow-hidden shrink-0 w-[82vw] snap-start sm:w-auto ${
+              className={`relative flex flex-col rounded-sm overflow-hidden ${
                 plan.featured
                   ? "glass-strong border-2 border-accent"
                   : "glass"
