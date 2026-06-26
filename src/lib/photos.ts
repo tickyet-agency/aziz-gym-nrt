@@ -66,6 +66,74 @@ export const PHOTOS = {
     credit: "Anastasija Vujic",
     creditUrl: "https://unsplash.com/@anastasijavujic",
   },
+  /* ── WhyUs section — cards that previously had no image ── */
+  whyusSpacious: {
+    src: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1600&auto=format&fit=crop",
+    alt: "Spacious, open gym floor with ample training space",
+    credit: "Danielle Cerullo",
+    creditUrl: "https://unsplash.com/@dncerullo",
+  },
+  whyusPersonalTraining: {
+    src: "https://images.unsplash.com/photo-1544033527-b192daee1f5b?q=80&w=1600&auto=format&fit=crop",
+    alt: "One-on-one personal training session in a gym",
+    credit: "Jonathan Borba",
+    creditUrl: "https://unsplash.com/@jonathanborba",
+  },
+  whyusFriendly: {
+    src: "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?q=80&w=1600&auto=format&fit=crop",
+    alt: "Welcoming gym atmosphere with members training together",
+    credit: "Sven Mieke",
+    creditUrl: "https://unsplash.com/@sxoxm",
+  },
+  whyusTrusted: {
+    src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1600&auto=format&fit=crop",
+    alt: "Gym members training together in a community environment",
+    credit: "Karsten Winegeart",
+    creditUrl: "https://unsplash.com/@karsten116",
+  },
+  /* ── Diet & Nutrition section ── */
+  nutritionHeroBg: {
+    src: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1600&auto=format&fit=crop",
+    alt: "Colourful healthy meal prep bowls on dark surface",
+    credit: "Brooke Lark",
+    creditUrl: "https://unsplash.com/@brookelark",
+  },
+  nutritionDietPlan: {
+    src: "https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?q=80&w=800&auto=format&fit=crop",
+    alt: "Personalised diet plan with healthy foods and notebook",
+    credit: "Vicky Ng",
+    creditUrl: "https://unsplash.com/@vickyng",
+  },
+  nutritionBalanced: {
+    src: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop",
+    alt: "Balanced nutrition bowl with vegetables, grains and protein",
+    credit: "Anna Pelzer",
+    creditUrl: "https://unsplash.com/@annapelzer",
+  },
+  nutritionMealPrep: {
+    src: "https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=800&auto=format&fit=crop",
+    alt: "Weekly meal prep containers lined up on a dark counter",
+    credit: "S'well",
+    creditUrl: "https://unsplash.com/@swell",
+  },
+  nutritionWeightLoss: {
+    src: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=800&auto=format&fit=crop",
+    alt: "Clean, light weight-loss friendly salad and lean foods",
+    credit: "Dan Gold",
+    creditUrl: "https://unsplash.com/@danielcgold",
+  },
+  nutritionMuscle: {
+    src: "https://images.unsplash.com/photo-1584466977773-e625c37cdd50?q=80&w=800&auto=format&fit=crop",
+    alt: "High-protein foods for muscle gain — eggs, meat, nuts",
+    credit: "Louis Hansel",
+    creditUrl: "https://unsplash.com/@louishansel",
+  },
+  nutritionLifestyle: {
+    src: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800&auto=format&fit=crop",
+    alt: "Active person enjoying a healthy lifestyle with fresh food",
+    credit: "Huha Inc.",
+    creditUrl: "https://unsplash.com/@huha",
+  },
   planGeneral: {
     src: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop",
     alt: "Trainee lifting dumbbells on gym floor",

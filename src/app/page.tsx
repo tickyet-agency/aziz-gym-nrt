@@ -9,6 +9,7 @@ import Reviews from "@/components/sections/Reviews";
 import Stats from "@/components/sections/Stats";
 import Contact from "@/components/sections/Contact";
 import FinalCta from "@/components/sections/FinalCta";
+import DietNutrition from "@/components/sections/DietNutrition";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <WhyUs />
         <GymExperience />
         <Trainers />
+        <DietNutrition />
         <Membership />
         <Reviews />
         <Stats />

@@ -45,7 +45,7 @@ export default function Trainers() {
           </h2>
         </Reveal>
 
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-16 flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-6 sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-3">
           {TRAINERS.map((trainer, i) => (
             <motion.div
               key={trainer.name}
@@ -57,7 +57,7 @@ export default function Trainers() {
                 delay: i * 0.1,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="group relative overflow-hidden border border-border rounded-sm"
+              className="group relative overflow-hidden border border-border rounded-sm shrink-0 w-[72vw] snap-start sm:w-auto"
             >
               <div className="relative aspect-[3/4] overflow-hidden">
                 <motion.div

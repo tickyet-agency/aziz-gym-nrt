@@ -19,7 +19,7 @@ const FEATURES = [
     title: "Spacious Workout Area",
     desc: "An open, uncrowded training floor designed so every set has room to breathe — no waiting, no squeezing past racks.",
     span: "lg:col-span-2 lg:row-span-1",
-    photo: undefined,
+    photo: PHOTOS.whyusSpacious,
   },
   {
     icon: UserCheck,
@@ -33,21 +33,21 @@ const FEATURES = [
     title: "Personal Training Available",
     desc: "One-on-one programs built around your goals, your schedule, and your starting point.",
     span: "lg:col-span-1 lg:row-span-1",
-    photo: undefined,
+    photo: PHOTOS.whyusPersonalTraining,
   },
   {
     icon: HeartHandshake,
     title: "Friendly Atmosphere",
     desc: "A floor where beginners aren't intimidated and regulars feel at home.",
     span: "lg:col-span-1 lg:row-span-1",
-    photo: undefined,
+    photo: PHOTOS.whyusFriendly,
   },
   {
     icon: Users,
     title: "Trusted By Local Members",
     desc: "Built on word-of-mouth from members who kept coming back — and kept bringing friends.",
     span: "lg:col-span-2 lg:row-span-1",
-    photo: undefined,
+    photo: PHOTOS.whyusTrusted,
   },
 ];
 
@@ -63,7 +63,7 @@ export default function WhyUs() {
           </h2>
         </Reveal>
 
-        <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-5 lg:auto-rows-[220px]">
+        <div className="mt-16 flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-5 sm:grid sm:grid-cols-1 sm:overflow-visible lg:grid-cols-3 lg:grid-rows-2 lg:auto-rows-[220px]">
           {FEATURES.map((feature, i) => {
             const Icon = feature.icon;
             return (
@@ -78,7 +78,7 @@ export default function WhyUs() {
                   ease: [0.16, 1, 0.3, 1],
                 }}
                 whileHover={{ scale: 1.015, y: -4 }}
-                className={`glass relative overflow-hidden p-8 flex flex-col justify-between group cursor-default ${feature.span}`}
+                className={`glass relative overflow-hidden p-8 flex flex-col justify-between group cursor-default shrink-0 w-[82vw] snap-start sm:w-auto ${feature.span}`}
               >
                 {feature.photo && (
                   <>
